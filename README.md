@@ -16,7 +16,8 @@ NGSのゲームスタート前のクソ長いファイルチェックをスキ�
 
 ## Download
 
-こちらから: [Release]()
+こちらから: [Release](https://github.com/2vg/ngs-fast-loader/releases)</br>
+`Assets`とかいうとこの`ngs-fast-loader.exe`をクリックしてダウンロード。</br>
 
 ## Build
 
