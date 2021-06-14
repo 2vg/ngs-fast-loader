@@ -86,7 +86,7 @@ fn main() -> Result<()> {
     builder.filter(None, log::LevelFilter::Trace);
     builder.init();
 
-    info!("pso2 fast loader started");
+    info!("NGS fast loader started");
 
     let path = get_verion_file_path(true, false)?;
 
