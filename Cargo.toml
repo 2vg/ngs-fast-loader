@@ -1,0 +1,18 @@
+[package]
+name = "ngs-fast-loader"
+version = "1.0.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossbeam-channel = "0.4.0"
+notify = "5.0.0-pre.10"
+anyhow = "1.0.40"
+directories = "3.0.2"
+futures = "0.3.15"
+env_logger = "0.8.4"
+log = "0.4.14"
+
+[patch.crates-io]
+notify = { path = "../notify" }
